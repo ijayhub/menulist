@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color:#f0f6fc;
+  @apply max-w-7xl mx-auto;
+}
+h1{
+  font-family: 'Bonheur Royale', cursive;
+  @apply text-3xl font-bold text-center my-6 text-green-800;
+}
+.navs{
+  @apply flex justify-center items-center mb-20 hover:text-green-800 font-bold
+}
+
+.meal-container{
+	@apply grid gap-10 grid-cols-1 md:grid-cols-2 
+}
+/* .meal-subcontainer{
+	@apply bg-white rounded-xl shadow-2xl mx-2 
+} */
+.img{
+  @apply h-44 w-full object-cover rounded-3xl border-2 border-green-800;
+}
+.para-menu{
+  color:#617d98;
+  font-size:16px;
+  line-height:24px;
+  font-weight:400;
+  font-style:normal;
+  @apply ml-3
+}
+.title-price{
+  @apply ml-3 flex justify-between text-green-800 font-bold;
+}
+@media only screen and (max-width:600px){
+  .meal-container{
+    @apply mx-3 ; 
+  }
+  .navs{
+    font-size: 12px;
+  }
+}
