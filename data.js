@@ -1,7 +1,7 @@
 export const data = [
 	{
 		title: 'Egg sauce',
-		img: './src/img/b1.jpg',
+		img: '/img/b1.jpg',
 		para: 'Egg sauce It’s typically one of Nigerian staple food that is perfect for breakfast.',
 		price: '#1500',
 		type: 'breakfast',
@@ -9,7 +9,7 @@ export const data = [
 	},
 	{
 		title: 'Abacha',
-		img: './src/img/lm5.jpg',
+		img: '/img/lm5.jpg',
 		para: 'African salad is native to the ndi Igbo (people of Igbo).',
 		price: '#3000',
 		type: 'lunch',
@@ -17,7 +17,7 @@ export const data = [
 	},
 	{
 		title: 'Boiled Potatoes',
-		img: './src/img/dm1.jpg',
+		img: '/img/dm1.jpg',
 		para: 'Boiled potatoes are highly nutritious mostly for kids and everyone contains fiber.',
 		price: '#1000',
 		type: 'dinner',
@@ -25,7 +25,7 @@ export const data = [
 	},
 	{
 		title: 'Grilled plantain',
-		img: './src/img/sm3.jpg',
+		img: '/img/sm3.jpg',
 		para: 'Grilled plantain are commonly called "bole in nigeria" eaten with roasted groundnut, smoked fish, palm-oil and pepper sauce. ',
 		price: '#300',
 		type: 'snacks',
@@ -33,7 +33,7 @@ export const data = [
 	},
 	{
 		title: 'Akara and Pap',
-		img: './src/img/b2.jpg',
+		img: '/img/b2.jpg',
 		para: 'Akara and Pap is Naija’s weekend morning meal for most homes because of its light and filling nature.',
 		price: '#300',
 		type: 'breakfast',
@@ -41,7 +41,7 @@ export const data = [
 	},
 	{
 		title: 'Pounded yam and egusi soup',
-		img: './src/img/lm3.jpg',
+		img: '/img/lm3.jpg',
 		para: 'Pounded Yam and egusi is a very delicious meal.',
 		price: '#2000',
 		type: 'lunch',
@@ -49,7 +49,7 @@ export const data = [
 	},
 	{
 		title: 'Spagetti',
-		img: './src/img/dm3c.jpg',
+		img: '/img/dm3c.jpg',
 		para: ' spaggetti is a starchy pasta of Italian origin that is made in the form of long strings, boiled, and served with any of a variety of meat, tomato, or other sauces.',
 		price: '#1500',
 		type: 'dinner',
@@ -57,7 +57,7 @@ export const data = [
 	},
 	{
 		title: 'Puff Puff',
-		img: './src/img/sm2.jpg',
+		img: '/img/sm2.jpg',
 		para: 'Puff-puff, as it is called in Nigeria and Sierra Leone, sometimes Ghana, and in anglophone Cameroon, is a traditional African snack made of fried dough.',
 		price: '#200',
 		type: 'snacks',
@@ -65,7 +65,7 @@ export const data = [
 	},
 	{
 		title: 'Toast Bread and Tea',
-		img: './src/img/b3.jpg',
+		img: '/img/b3.jpg',
 		para: 'Most homes in nigeria love our bread toasted but served with sauce or drank with hot tea or chocolate drink',
 		price: '#1000',
 		type: 'breakfast',
@@ -73,7 +73,7 @@ export const data = [
 	},
 	{
 		title: 'Jollof rice',
-		img: './src/img/lm1.jpg',
+		img: '/img/lm1.jpg',
 		para: 'Jollof, or jollof rice, is a rice dish from West Africa. It is widely eaten by all.',
 		price: '#2000',
 		type: 'lunch',
@@ -81,7 +81,7 @@ export const data = [
 	},
 	{
 		title: 'Boiled plaintain',
-		img: './src/img/dm4a.jpg',
+		img: '/img/dm4a.jpg',
 		para: 'Boiled plaintain are highly nutritious for everyone, boiled plaintain can be served with different sauce',
 		price: '#2000',
 		type: 'dinner',
@@ -89,7 +89,7 @@ export const data = [
 	},
 	{
 		title: 'corn',
-		img: './src/img/sm4.jpg',
+		img: '/img/sm4.jpg',
 		para: 'corn can highly nutritious and can be eaten roasted, boiled also can be eaten with coconut and pear',
 		price: '#500',
 		type: 'snacks',
