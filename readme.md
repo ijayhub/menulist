@@ -33,7 +33,10 @@ A categorize navigation to see the menu list based on the category.
 
 * [Repo Codes](https://github.com/ijayhub/menulist)
 
-* [Hosted Link]()
+* [Hosted Link](https://nigerian-meals.netlify.app/)
+
+
+* [Blog](https://ijaycent.hashnode.dev/creating-a-menu-using-reactjs)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
