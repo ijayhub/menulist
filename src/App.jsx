@@ -8,13 +8,15 @@ import Snacks from './pages/Snacks';
 
 const App = () => {
 	return (
-		<Routes>
-			<Route path='/' element={<Home />}></Route>
-			<Route path='/breakfast' element={<Breakfast />}></Route>
-			<Route path='/lunch' element={<Lunch />}></Route>
-			<Route path='/dinner' element={<Dinner/>}></Route>
-			<Route path='/snacks' element={<Snacks />}></Route> 
-		</Routes>
+		<div className="max-w-7xl mx-auto">
+			<Routes>
+				<Route path='/' element={<Home />}></Route>
+				<Route path='/breakfast' element={<Breakfast />}></Route>
+				<Route path='/lunch' element={<Lunch />}></Route>
+				<Route path='/dinner' element={<Dinner />}></Route>
+				<Route path='/snacks' element={<Snacks />}></Route>
+			</Routes>
+		</div>
 	);
 }
 

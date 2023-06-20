@@ -12,7 +12,7 @@
 body{
   font-family: 'Nunito', sans-serif;
   background-color:#f0f6fc;
-  @apply max-w-7xl mx-auto;
+  
 }
 h1{
   font-family: 'Bonheur Royale', cursive;
@@ -25,9 +25,6 @@ h1{
 .meal-container{
 	@apply grid gap-10 grid-cols-1 md:grid-cols-2 
 }
-/* .meal-subcontainer{
-	@apply bg-white rounded-xl shadow-2xl mx-2 
-} */
 .img{
   @apply h-44 w-full object-cover rounded-3xl border-2 border-green-800;
 }
