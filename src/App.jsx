@@ -1,10 +1,10 @@
 import React from 'react'
 import{Routes, Route}from 'react-router-dom'
-import Breakfast from './components/Breakfast';
-import Dinner from './components/Dinner';
-import Home from './components/Home';
-import Lunch from './components/Lunch';
-import Snacks from './components/Snacks';
+import Breakfast from './pages/Breakfast';
+import Dinner from './pages/Dinner';
+import Home from './pages/Home';
+import Lunch from './pages/Lunch';
+import Snacks from './pages/Snacks';
 
 const App = () => {
 	return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Header from './Header'
+import Header from '../components/Header';
 import { data } from '../../data'
 import Menulist from './Menulist'
 import { CirclesWithBar } from 'react-loader-spinner'
@@ -31,7 +31,8 @@ const Home = () => {
 						ariaLabel='circles-with-bar-loading'
 					/>
 				</div>
-			)}
+				)}
+				
 			{!loading && <Menulist meals={meals} />}
 		</div>
 	);
